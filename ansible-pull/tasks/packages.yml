@@ -1,0 +1,6 @@
+  apt:
+     name:
+       - htop
+       - mc
+       - tmux
+
