@@ -1,6 +1,6 @@
+- name: Instala paquetes
   apt:
-     name:
-       - htop
-       - mc
-       - tmux
-
+    name:
+      - htop
+      - mc
+      - tmux
