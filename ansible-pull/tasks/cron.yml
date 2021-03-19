@@ -1,6 +1,6 @@
-- name: Instala cron job (ansible-pull)
+- name: Instala cron job (ansible-pull) con ejecucion 15 minutos
   cron:
     user: ansible
-    name: "ansible provision"
-    minute: "*/10"
+    name: "Proveedor ansible"
+    minute: "*/15"
     job: "/usr/bin/ansible-pull -o -U https://github.com/gussietorres/ANSIBLE.git > /dev/null"
