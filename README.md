@@ -10,7 +10,7 @@ Automatiza operaciones en un sistema Debian, las variaciones que se hagan en Git
 **Instalación:**
 
 ```
-apt install ansible -y
+apt install ansible git -y
 which ansible-pull
 ```
 
