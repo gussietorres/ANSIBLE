@@ -1,3 +1,6 @@
+- name: Actualiza TODOS los paquetes en la maquina
+  apt: upgrade=dist force_apt_get=yes
+
 - name: Verifica si es necesario un REBOOT
   register: reboot_required_file
   stat: path=/var/run/reboot-required get_md5=no
