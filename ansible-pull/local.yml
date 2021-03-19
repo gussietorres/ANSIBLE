@@ -1,15 +1,15 @@
  - hosts: localhost
    connection: local
    become: true
- 
+
    pre_tasks:
-     - name: update repositories
+     - name: Actualiza REPOSITORIOS
        apt:
          update_cache: yes
-       changed_when: False
-       
+         changed_when: False
+
    tasks:
      - include: tasks/users.yml
      - include: tasks/cron.yml
      - include: tasks/packages.yml
-     
+     - include: tasks/upgrade.yml

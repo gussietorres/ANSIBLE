@@ -1,5 +1,19 @@
 # ANSIBLE
-Ansible (ansible-pull)
+## Ansible (ansible-pull)
+
+Ref.: Youtube: https://youtu.be/sn1HQq_GFNE
+
+**Automatiza operaciones en un sistema Debian**
+
+Las tareas de este PLAYBOOK son:
+
+**/task/users.yml**			   Agrega el usuario: **ansible** al grupo: **sudoers**
+
+**/task/cron.yml**                Agrega un job al crontab: "*/10"
+
+**/task/packages.yml**	   Instala paquetes adicionales
+
+**/task/upgrade.yml**	     Actualiza el sistema y señala si es necesario el REBOOT
 
 
 

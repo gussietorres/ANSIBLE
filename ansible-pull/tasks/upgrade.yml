@@ -1,0 +1,13 @@
+- name: Verifica si es necesario un REBOOT
+  register: reboot_required_file
+  stat: path=/var/run/reboot-required get_md5=no
+
+- name: REBOOT de la maquina si actualizado el KERNEL
+  reboot:
+    msg: "REBOOT iniciado por Ansible debido a actualización del KERNEL"
+    connect_timeout: 5
+    reboot_timeout: 300
+    pre_reboot_delay: 0
+    post_reboot_delay: 30
+    test_command: uptime
+  when: reboot_required_file.stat.exists
