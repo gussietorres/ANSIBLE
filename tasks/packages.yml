@@ -4,3 +4,5 @@
       - htop
       - mc
       - tmux
+      - autofs
+      
