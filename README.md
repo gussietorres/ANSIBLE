@@ -22,7 +22,7 @@ Automatiza operaciones en un sistema Debian, las variaciones que se hagan en Git
 **Comando manual para actualización:**
 
 ```
-sudo ansible-pull -U https://github.com/gussietorres/ANSIBLE.git
+sudo ansible-pull -U https://github.com/gussietorres/ANSIBLE.git/ansible-pull
 ```
 
 **Verificar creación usuario "ansible":**
