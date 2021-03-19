@@ -6,6 +6,7 @@
     name: gtorres
     password: VVFWy60C/DCBo
     uid: 1001
+    shell: /bin/bash
 
 - name: Crea usuario ansible
   user:
