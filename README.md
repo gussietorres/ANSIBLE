@@ -7,6 +7,15 @@ Automatiza operaciones en un sistema Debian, las variaciones que se hagan en Git
 
 
 
+**Instalación:**
+
+```
+apt install ansible -y
+which ansible-pull
+```
+
+
+
 ## **Las tareas de este PLAYBOOK son:**
 
 **/task/users.yml**			  Agrega el usuario: **ansible** al grupo: **sudoers**
