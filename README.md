@@ -23,3 +23,16 @@ Las tareas de este PLAYBOOK son:
 sudo ansible-pull -o -U https://github.com/gussietorres/ANSIBLE.git
 ```
 
+**Verificar creación usuario "ansible":**
+
+```
+ls -l /home
+cat /etc/passwd
+```
+
+**Verificar crontab:**
+
+```
+sudo crontab -u ansible -l
+```
+
