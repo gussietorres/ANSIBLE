@@ -1,7 +1,24 @@
+# Password creada con:
+# python -c 'import crypt; print crypt.crypt("Passworden CLARO", "password")'
+
+- name: Crea usuario gtorres
+  user:
+    name: gtorres
+    password: VVFWy60C/DCBo
+    uid: 1001
+
 - name: Crea usuario ansible
   user:
     name: ansible
     system: yes
+
+- name: Inserta usuario gtorres en grupo sudoers, copiado /files/sudoers_gtorres
+  copy:
+    src: files/sudoers_gtorres
+    dest: /etc/sudoers.d/gtorres
+    owner: root
+    group: root
+    mode: 0440
 
 - name: Inserta usuario ansible en grupo sudoers, copiado /files/sudoers_ansible
   copy:
