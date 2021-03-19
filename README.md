@@ -20,6 +20,6 @@ Las tareas de este PLAYBOOK son:
 **Comando manual para actualización:**
 
 ```
-ansible-pull -o -U https://github.com/gussietorres/ANSIBLE.git > /dev/null
+sudo ansible-pull -o -U https://github.com/gussietorres/ANSIBLE.git
 ```
 
