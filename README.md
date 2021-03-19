@@ -3,11 +3,11 @@
 
 Ref.: Youtube: https://youtu.be/sn1HQq_GFNE
 
-### Automatiza operaciones en un sistema Debian, las variaciones que se hagan en GitHub (por ejemplo modificando los paquetes que se desean instalar (packages.yml) automáticamente actualizaran el procedimiento en el server.
+Automatiza operaciones en un sistema Debian, las variaciones que se hagan en GitHub (por ejemplo modificando los paquetes que se desean instalar (packages.yml) automáticamente actualizaran el procedimiento en el server.
 
 
 
-**Las tareas de este PLAYBOOK son:**
+## **Las tareas de este PLAYBOOK son:**
 
 **/task/users.yml**			  Agrega el usuario: **ansible** al grupo: **sudoers**
 
