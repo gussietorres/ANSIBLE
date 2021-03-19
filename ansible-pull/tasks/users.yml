@@ -3,7 +3,7 @@
     name: ansible
     system: yes
 
-- name: Copia sudoers_ansible
+- name: Inserta usuario ansible en grupo sudoers, copiado /files/sudoers_ansible
   copy:
     src: files/sudoers_ansible
     dest: /etc/sudoers.d/ansible
