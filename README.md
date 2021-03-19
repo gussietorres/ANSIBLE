@@ -22,7 +22,7 @@ Ref.: Youtube: https://youtu.be/sn1HQq_GFNE
 **Comando manual para actualización:**
 
 ```
-sudo ansible-pull -o -U https://github.com/gussietorres/ANSIBLE.git
+sudo ansible-pull -U https://github.com/gussietorres/ANSIBLE.git
 ```
 
 **Verificar creación usuario "ansible":**
