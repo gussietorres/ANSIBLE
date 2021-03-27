@@ -1,4 +1,4 @@
-- name: Instala cron job (ansible-pull) con ejecucion 15 minutos
+- name: Instala cron job (ansible-pull) con ejecucion a las 23:00 de cada día
   cron:
     user: root
     name: "Proveedor ansible"
