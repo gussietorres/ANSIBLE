@@ -6,5 +6,8 @@
       - tmux
       - autofs
       - nfs-common
-      - glances
+      - sudo
+      - wget
+      - curl
+      - net-tools
       
